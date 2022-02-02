@@ -31,6 +31,8 @@ port=int(os.getenv('PORT', 8080)),
 1. Run command in terminal `python app.py`
 2. Preview web page in browser '/'
 
+
+
 ## Deploy to Heroku
 1. Install Heroku CLI: For WSL users, run `sudo snap install --classic heroku`. For Mac users, run `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"` if you don't have Homebrew installed, then `brew tap heroku/brew && brew install heroku`. This could take a few minutes. In the meantime...
 2. Create a free account on Heroku https://signup.heroku.com/login
